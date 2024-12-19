@@ -38,7 +38,7 @@
     <key>openTypeHeadLowestRecPPEM</key>
     <integer>6</integer>
     <key>openTypeHheaAscender</key>
-    <integer>1160</integer>
+    <integer>967</integer>
     <key>openTypeHheaCaretOffset</key>
     <integer>0</integer>
     <key>openTypeHheaCaretSlopeRise</key>
@@ -46,7 +46,7 @@
     <key>openTypeHheaCaretSlopeRun</key>
     <integer>0</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-288</integer>
+    <integer>-213</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
@@ -119,6 +119,10 @@
       <integer>0</integer>
       <integer>0</integer>
     </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>300</integer>
     <key>openTypeOS2StrikeoutSize</key>
@@ -142,9 +146,9 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>880</integer>
+    <integer>967</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-120</integer>
+    <integer>-213</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2UnicodeRanges</key>
@@ -220,7 +224,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>xHeight</key>
     <integer>501</integer>
   </dict>

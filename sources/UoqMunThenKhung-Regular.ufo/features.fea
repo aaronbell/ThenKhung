@@ -12432,3 +12432,23 @@ feature vrt2 { # Vertical Alternates and Rotation
 table GDEF {
     GlyphClassDef @BASE, @LIGA, @MARK,;
 } GDEF;
+
+table BASE {
+  HorizAxis.BaseTagList             icfb    icft    ideo    romn;
+  HorizAxis.BaseScriptList  
+                DFLT 	ideo  	    -97    851    -123    0,
+                hani  	ideo   	    -97    851    -123    0,
+                kana  	ideo   	    -97    851    -123    0,
+                latn  	romn    	-97    851    -123    0,
+                cyrl  	romn    	-97    851    -123    0,
+                grek  	romn   	    -97    851    -123    0;
+
+  VertAxis.BaseTagList              icfb    icft    ideo    romn;
+  VertAxis.BaseScriptList 
+                DFLT  	ideo    	 24    976    0    123,
+                hani  	ideo    	 24    976    0    123,
+                kana  	ideo    	 24    976    0    123,
+                latn  	romn   	     24    976    0    123,
+                cyrl  	romn    	 24    976    0    123,
+                grek  	romn    	 24    976    0    123;
+} BASE;
